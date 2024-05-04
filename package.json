@@ -1,0 +1,29 @@
+{
+  "name": "be-medicalrecords",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xNuyn/BE-MedicalRecord.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xNuyn/BE-MedicalRecord/issues"
+  },
+  "homepage": "https://github.com/xNuyn/BE-MedicalRecord#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
