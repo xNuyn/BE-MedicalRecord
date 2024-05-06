@@ -2,9 +2,10 @@
   "name": "be-medicalrecords",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "nodemon --inspect index.js",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass --watch src/resources/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +22,17 @@
   },
   "homepage": "https://github.com/xNuyn/BE-MedicalRecord#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "@types/multer-gridfs-storage": "^4.0.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "express-handlebars": "^7.1.2",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^8.3.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
